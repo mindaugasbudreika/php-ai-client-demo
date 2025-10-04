@@ -1,0 +1,25 @@
+{
+    "name": "mindaugasbudreika/hello-local-llm",
+    "autoload": {
+        "psr-4": {
+            "MindaugasBudreika\\HelloLocalLlm\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mindaugas Budreika",
+            "email": "mindaugas.budreika@gmail.com"
+        }
+    ],
+    "require": {
+        "wordpress/php-ai-client": "^0.1.0",
+        "automattic/jetpack-autoloader": "^5.0",
+        "php-http/guzzle7-adapter": "^1.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "automattic/jetpack-autoloader": true
+        }
+    }
+}
